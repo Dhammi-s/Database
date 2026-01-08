@@ -1,6 +1,7 @@
 ﻿USE [ecommerce]
 GO
 /****** Object:  Table [dbo].[CartItems]    Script Date: 23-11-2025 20:49:47 ******/
+	 
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -284,4 +285,5 @@ REFERENCES [dbo].[Userr] ([Id])
 GO
 ALTER TABLE [dbo].[Products] CHECK CONSTRAINT [FK_Product_Users]
 GO
+
 
